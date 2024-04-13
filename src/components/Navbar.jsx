@@ -18,7 +18,11 @@ export default function Navbar() {
           </Link>
         </div>
         {/*  Navigation items */}
-        <div className=" bg-red-600 w-10 h-10"></div>
+        <div className=" bg-red-600">
+          {
+            // navigationItems.map((item))
+          }
+        </div>
     </div>
   )
 }

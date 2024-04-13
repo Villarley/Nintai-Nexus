@@ -6,7 +6,7 @@
 2. **Code Review**: All PRs must be reviewed by at least one collaborator before merging.
 3. **CamelCase Usage**: Use CamelCase for coding standards.
 4. **File and Component Naming**: Name files and components in uppercase.
-5. **Code Indentation**: Ensure proper indentation in the codebase.
+5. **Code Indentation**: Ensure proper indentation in the codebase. Use the standard of VSCode. "ctrl + p" + "Format Document"
 6. **English Variable Names**: Use only English for variable naming.
 
 ## Branching Strategy
