@@ -10,6 +10,9 @@ module.exports = {
       colors:{
         'Bone': '#ECE7E0',
         'Indigo': '#6600FF', 
+      },
+      fontFamily:{
+        body:['IBM+Plex+Sans']
       }
     },
   },
