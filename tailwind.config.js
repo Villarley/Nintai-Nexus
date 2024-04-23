@@ -13,8 +13,8 @@ module.exports = {
       },
       fontFamily:{
         'IbmPlexSans':['IBM Plex Sans', 'sans-serif'],
-        'kleemax':['Kleemax', 'sans-serif'],
-        'nebula':['Nebula',  'sans-serif']
+        'Kleemax':['Kleemax', 'sans-serif'],
+        'Nebula':['Nebula', 'system-ui' ,'sans-serif']
       }
     },
   },

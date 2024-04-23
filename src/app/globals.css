@@ -5,14 +5,20 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Kleemax";
-  src: url("/public/fonts/Kleemax.ttf") format("truetype");
+  font-family: 'Kleemax';
+  src: url(/src/assets/fonts/Kleemax.ttf) format('truetype');
 }
 
-@font-face {
-  font-family: "Nebula";
-  src: url("/public/fonts/Nebula-Regular.otf") format("truetype");
+@layer base {
+  @font-face {
+    font-family: 'Nebula';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../assets/fonts/Nebula-Regular.otf) format('otf');
+  }
 }
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
