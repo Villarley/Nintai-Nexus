@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Kleemax";
+  src: url("/public/fonts/Kleemax.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nebula";
+  src: url("/public/fonts/Nebula-Regular.otf") format("truetype");
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
