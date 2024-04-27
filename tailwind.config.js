@@ -12,9 +12,9 @@ module.exports = {
         'Indigo': '#6600FF', 
       },
       fontFamily:{
-        'IbmPlexSans':['IBM Plex Sans', 'sans-serif'],
-        'Kleemax':['Kleemax', 'sans-serif'],
-        'Nebula':['Nebula', 'system-ui' ,'sans-serif']
+        IbmPlexSans:['IBM Plex Sans', 'sans-serif'],
+        Kleemax:['Kleemax', 'serif'],
+        Nebula:['Nebula', 'serif']
       }
     },
   },
