@@ -1,0 +1,1 @@
+export { default as MainBg } from "./F1.jpg"

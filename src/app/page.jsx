@@ -19,12 +19,14 @@ const IBM_Plex = IBM_Plex_Sans({
   weight: '400',
   variable: '--font-ibm'
 })
-
+import { Hero, Navbar } from "@/components/"
 export default function Home() {
 
   return (
-    <div className="">
-      <Navbar/>
-    </div>
-  );
+    <>
+      <Hero>
+        <Navbar />
+      </Hero>
+    </>
+  )
 }
