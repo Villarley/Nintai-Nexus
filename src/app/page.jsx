@@ -1,6 +1,8 @@
+"use client"
 import nebula from '@next/font/local'
 import kleemax from '@next/font/local'
 import { IBM_Plex_Sans } from 'next/font/google'
+import { Navbar } from "@/components"
 
 const Nebula = nebula({
   src: '../assets/fonts/Nebula-Regular.otf', 
@@ -22,9 +24,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <p className={`${IBM_Plex.variable} font-Ibm`}>
-        Hello World
-      </p>
+      <Navbar/>
     </div>
   );
 }
