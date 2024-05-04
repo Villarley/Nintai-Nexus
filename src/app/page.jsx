@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <div className="">
-      <h1 className="font-Kleemax">
+      <p className="font-kleemax">
         Hello World
-      </h1>
+      </p>
     </div>
   );
 }

@@ -4,9 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
-  font-family: 'Kleemax';
-  src: url("../assets/fonts/Kleemax.ttf") format("ttf");
+  font-family: 'kleemax';
+  src: url("../assets/fonts/Kleemax.ttf") format('truetype');
 }
 
 @font-face {
