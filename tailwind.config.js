@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily:{
-      IbmPlexSans:['IBM Plex Sans', 'sans-serif'],
-      kleemax:['Kleemax', 'serif'],
-      Nebula:['Nebula', 'serif']
+      Ibm:['var(--font-ibm)'],
+      Kleemax:['var(--font-kleemax)'],
+      Nebula:['var(--font-nebula)']
     },
     extend: {
       // colors:{
