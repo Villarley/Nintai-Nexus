@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function ({ children }) {
+export default function Hero ({ children }) {
     return (
-        <div className="h-screen w-full">
+        <div className={"h-screen w-full"}>
             {children}
         </div>
     )

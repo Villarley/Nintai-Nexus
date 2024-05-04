@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${kleemax.variable}`}><div className="h-screen">{children}</div></body>
+      <body className={`${kleemax.variable}`}>{children}</body>
     </html>
   )
 }
