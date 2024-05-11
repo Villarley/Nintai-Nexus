@@ -17,7 +17,6 @@ const IBM_Plex = IBM_Plex_Sans({
 })
 
 export default function Home() {
-
   return (
     <>
       <Hero>
