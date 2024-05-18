@@ -14,6 +14,6 @@ const IBM_Plex = IBM_Plex_Sans({
 })
 export default function NavLink({ children, dir }) {
   return (
-    <Link href={dir}  className={`${Nebula.variable} font-Nebula text-lg`}>{children}</Link>
+    <Link href={dir}  className={`${Nebula.variable} font-Nebula text-lg text-center`}>{children}</Link>
   )
 }
