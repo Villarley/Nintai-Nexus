@@ -2,12 +2,8 @@
 import nebula from '@next/font/local'
 import kleemax from '@next/font/local'
 import { IBM_Plex_Sans } from 'next/font/google'
-import { Navbar } from "@/components"
-
-const Nebula = nebula({
-  src: '../assets/fonts/Nebula-Regular.otf', 
-  variable: '--font-nebula'
-})
+import { Hero } from "@/components/"
+import { Navbar } from "@/components/Navbar"
 
 const Kleemax = kleemax({
   src: '../assets/fonts/Kleemax.ttf',
@@ -19,9 +15,8 @@ const IBM_Plex = IBM_Plex_Sans({
   weight: '400',
   variable: '--font-ibm'
 })
-import { Hero, Navbar } from "@/components/"
-export default function Home() {
 
+export default function Home() {
   return (
     <>
       <Hero>
