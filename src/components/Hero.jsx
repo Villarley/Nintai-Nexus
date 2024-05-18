@@ -1,8 +1,9 @@
 import React from 'react'
+import "../styles/styles.css"
 
 export default function Hero ({ children }) {
     return (
-        <div className={"h-screen w-full"}>
+        <div className={"hero h-screen w-full"}>
             {children}
         </div>
     )
