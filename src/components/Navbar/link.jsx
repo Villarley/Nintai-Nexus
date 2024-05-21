@@ -4,7 +4,7 @@ import nebula from '@next/font/local'
 import { IBM_Plex_Sans } from 'next/font/google'
 
 const Nebula = nebula({
-  src: '../../assets/Fonts/Nebula-Regular.otf', 
+  src: '../../assets/fonts/Nebula-Regular.otf', 
   variable: '--font-nebula'
 })
 const IBM_Plex = IBM_Plex_Sans({
