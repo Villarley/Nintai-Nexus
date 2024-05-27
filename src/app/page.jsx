@@ -3,7 +3,7 @@ import Image from "next/image"
 import nebula from "@next/font/local"
 import kleemax from "@next/font/local"
 import { IBM_Plex_Sans } from "next/font/google"
-import { Hero } from "@/components/"
+import { Hero, Sponsors } from "@/components/"
 import { Navbar } from "@/components/Navbar"
 import { NintaiTitle } from "@/assets/Bgs"
 
@@ -28,6 +28,7 @@ export default function Home() {
           <h2 className={`${IBM_Plex.variable} font-Ibm text-5xl text-center`}>Redisigning the <span className=" text-[#6600FF]">limits</span></h2>
         </div>
       </Hero>
+      <Sponsors/>
     </>
   )
 }
