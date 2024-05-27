@@ -3,6 +3,7 @@ import localFont from "next/font/local"
 
 import "./globals.css"
 
+
 const IBM = IBM_Plex_Sans({ subsets: ["latin"], weight:["600"] })
 const kleemax = localFont({
   src: [
