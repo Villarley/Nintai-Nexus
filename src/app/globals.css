@@ -73,5 +73,13 @@ body {
 .sponsor-item {
   display: inline-block;
   padding: 0 10px;
-  min-width: 200px; /* Ajusta esto según el tamaño de tus imágenes */
+  min-width: 200px;
+}
+.sponsor-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.sponsor-item:hover img {
+  filter: grayscale(0%);
 }
