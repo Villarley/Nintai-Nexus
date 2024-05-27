@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image"
-import nebula from "@next/font/local"
 import kleemax from "@next/font/local"
 import { IBM_Plex_Sans } from "next/font/google"
 import { Hero, Sponsors } from "@/components/"
@@ -29,6 +28,7 @@ export default function Home() {
         </div>
       </Hero>
       <Sponsors/>
+
     </>
   )
 }
