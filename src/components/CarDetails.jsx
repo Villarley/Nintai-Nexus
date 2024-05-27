@@ -1,16 +1,15 @@
 import React, { useState } from "react"
+import Image from "next/image"
 import nebula from "@next/font/local"
+import { NN24, SideNN24 } from "@/assets/Car"
 import { TabButton, TabContent } from "@/components/Tabs"
+import { Nebula } from "@/components/Text"
 
-const Nebula = nebula({
-  src: "../assets/fonts/Nebula-Regular.otf",
-  variable: "--font-nebula",
-})
 
 export default function CarDetails() {
   return (
     <div className="bg-Bone flex flex-col gap-10 py-14">
-      <h1 className={`${Nebula.variable} font-Nebula text-center text-5xl text-Indigo`}>Car</h1>
+      <h1 className="text-center"><Nebula classname="text-center text-5xl text-Indigo">Car</Nebula></h1>
       <Tab />
     </div>
   )
@@ -37,8 +36,16 @@ function Tab() {
           </TabButton>
         </div>
       </div>
-      <TabContent isActive={isActive === 0}>Engine</TabContent>
-      <TabContent isActive={isActive === 1}>Aerodynamics</TabContent>
+      <TabContent isActive={isActive === 0}>
+        <Image src={NN24} alt=""/>
+        <div className="flex">
+          <div className="flex flex-col p-5">
+            <Nebula classname="text-center text-2xl text-black">Weight</Nebula>
+            <Nebula classname="text-center text-2xl text-Indigo">60 g</Nebula>
+          </div>
+        </div>
+        </TabContent>
+      <TabContent isActive={isActive === 1}><Image src={SideNN24} alt=""/></TabContent>
       <TabContent isActive={isActive === 2}>Chassis</TabContent>
       <TabContent isActive={isActive === 3}>Design</TabContent>
     </div>
