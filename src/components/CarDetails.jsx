@@ -4,6 +4,7 @@ import nebula from "@next/font/local"
 import { NN24, SideNN24 } from "@/assets/Car"
 import { TabButton, TabContent } from "@/components/Tabs"
 import { Nebula } from "@/components/Text"
+import { Cta } from "@/components/Buttons"
 
 
 export default function CarDetails() {
@@ -48,6 +49,7 @@ function Tab() {
       <TabContent isActive={isActive === 1}><Image src={SideNN24} alt=""/></TabContent>
       <TabContent isActive={isActive === 2}>Chassis</TabContent>
       <TabContent isActive={isActive === 3}>Design</TabContent>
+      <Cta>Check Our Car</Cta>
     </div>
   )
 }
