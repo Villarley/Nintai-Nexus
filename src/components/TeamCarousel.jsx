@@ -14,8 +14,8 @@ export default function TeamCarousel() {
         {Name:"SANTIAGO", Surname:"LOBO", Img:LoboPlano, Role:"Project Manager", Height:415, Width:415},
         {Name:"SANTIAGO", Surname:"VILLARREAL", Img:ArleyPlano, Role:"Finance Manager", Height:366, Width:366},
         {Name:"AMANDA", Surname:"CORDERO", Img:AmandaPlano, Role:"Manufacturing Engineer", Height:367, Width:367},
-        {Name:"MARIA", Surname:"CURCO", Img:MariaPlano, Role:"Design Engineer", Height:318, Width:318},
-        {Name:"JOEL", Surname:"VARGAS", Img:JoelPlano, Role:"Graphic Designer", Height:277, Width:277},
+        {Name:"MARIA", Surname:"CURCO", Img:MariaPlano, Role:"Design Engineer", Height:320, Width:320},
+        {Name:"JOEL", Surname:"VARGAS", Img:JoelPlano, Role:"Graphic Designer", Height:280, Width:280},
         {Name:"LUIS", Surname:"ANGEL", Img:LuisPlano, Role:"Sponsorship Manager", Height:352, Width:352}
     ]
   return (
