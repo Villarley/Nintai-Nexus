@@ -12,10 +12,10 @@ module.exports = {
       Nebula:['var(--font-nebula)']
     },
     extend: {
-      // colors:{
-      //   'Bone': '#ECE7E0',
-      //   'Indigo': '#6600FF', 
-      // },
+      colors:{
+        'Bone': '#ECE7E0',
+        'Indigo': '#6600FF', 
+      },
     },
   },
   plugins: [],
