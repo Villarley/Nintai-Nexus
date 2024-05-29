@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 import { Kleemax } from "@/components/Text"
 
-export default function TeamMember({ name, role, image }) {
+export default function TeamMember({ Name, Role, Img }) {
       return (
-      <div className="flex flex-col items-center">
-            <Image src={image} alt={name} width={150} height={150} className="rounded-full" />
-            <div className="text-center">
-            <h3 className="font-bold text-lg">{name}</h3>
-            <Kleemax className="text-sm">{role}</Kleemax>
+      <div className="flex flex-row gap-10 items-center justify-center">
+            <Image src={Img} alt={Name} width={450} height={450} />
+            <div className="text-left">
+                  <h1 className="text-6xl"><Kleemax className="text-3xl">{Name}</Kleemax></h1>
+                  <h2 className="text-xl">{Role}</h2>
             </div>
       </div>
       );

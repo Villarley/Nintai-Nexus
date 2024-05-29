@@ -4,7 +4,7 @@ import kleemax from '@next/font/local'
 import { IBM_Plex_Sans } from 'next/font/google'
 import { Hero } from "@/components/"
 import { Navbar } from "@/components/Navbar"
-import { TeamMember } from '@/components/'
+import { TeamCarousel } from '@/components/'
 
 const Kleemax = kleemax({
   src: '../assets/fonts/Kleemax.ttf',
@@ -23,7 +23,7 @@ export default function Home() {
       <Hero>
         <Navbar />
       </Hero>
-      <TeamMember/>
+      <TeamCarousel/>
     </>
   )
 }
