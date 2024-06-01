@@ -23,7 +23,7 @@ export default function TeamCarousel() {
         delay: 2000,
         disableOnInteraction: false,
       }} className=" h-full bg-black flex justify-center items-center">
-        {members.map((member, index) => (
+        {members?.map((member, index) => (
             <SwiperSlide key={index} className="bg-black">
                 <TeamMember Img={member.Img} Name={member.Name} Surname={member.Surname} Role={member.Role} Height={member.Height} Width={member.Width}/>
             </SwiperSlide>

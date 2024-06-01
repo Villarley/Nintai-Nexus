@@ -12,7 +12,7 @@ export default function Values() {
         {Name:"Resilence", Img:Resilence}
     ]
   return (
-    <div className="bg-Bone flex justify-center flex-wrap gap-20">
+    <div className="bg-Bone flex justify-center flex-wrap gap-20 py-20">
         {values.map((value, index) => (
            <Card key={index} Img={value.Img} Name={value.Name}/>
         ))}
