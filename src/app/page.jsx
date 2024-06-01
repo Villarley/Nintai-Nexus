@@ -5,7 +5,6 @@ import { IBM_Plex_Sans } from "next/font/google"
 import { Hero, Sponsors, CarDetails } from "@/components/"
 import { Navbar } from "@/components/Navbar"
 import { NintaiTitle } from "@/assets/Bgs"
-import CarCanvas from "@/components/NN24"
 
 const Kleemax = kleemax({
   src: "../assets/fonts/Kleemax.ttf",
@@ -30,7 +29,6 @@ export default function Home() {
       </Hero>
       <Sponsors/>
       <CarDetails/>
-      <CarCanvas/>
     </>
   )
 }
