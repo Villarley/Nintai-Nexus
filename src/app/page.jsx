@@ -26,7 +26,7 @@ export default function Home() {
         <Navbar />
         <div className="flex h-[87%] flex-col justify-around p-6">
           <Image className="md:m-6" width={500} height={300} alt="" src={NintaiTitle}></Image>
-          <h2 className={`${IBM_Plex.variable} font-Ibm text-5xl text-center`}>Redisigning the <span className=" text-[#6600FF]">limits</span></h2>
+          <h2 className={`${IBM_Plex.variable} font-Ibm text-5xl text-center text-Bone`}>Redisigning the <span className=" text-[#6600FF] shadow-lg">limits</span></h2>
         </div>
       </Hero>
       <Sponsors/>
