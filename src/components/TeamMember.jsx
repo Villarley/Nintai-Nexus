@@ -8,14 +8,13 @@ const IBM_Plex = IBM_Plex_Sans({
       variable: "--font-ibm"
     })
 
-export default function TeamMember({ Name, Surname, Role, Img, Height, Width }) {
-      console.log(Height, Width)
+export default function TeamMember({ Name, Surname, Role, Img }) {
       return (
-      <div className="flex flex-row gap-12 items-center justify-center p-10">
-            <Image src={Img} alt={Name} height={Height} width={Width} />
+      <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center justify-center p-10">
+            <Image src={Img} alt={Name} className="h-72 w-56"/>
             <div className="">
-                  <Kleemax><h1 className="text-lg sm:text-2xl md:text-6xl text-Indigo">{Name}</h1><h1 className="text-lg sm:text-2xl md:text-6xl">{Surname}</h1></Kleemax>
-                  <h3 className="font-Ibm text-md sm:text-lg md:text-2xl">{Role}</h3>
+                  <Kleemax><h1 className="text-4xl md:text-6xl text-Indigo">{Name}</h1><h1 className="text-3xl md:text-6xl">{Surname}</h1></Kleemax>
+                  <h3 className="font-Ibm text-lg md:text-2xl">{Role}</h3>
             </div>
       </div>
       )
