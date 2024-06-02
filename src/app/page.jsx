@@ -2,7 +2,8 @@
 import Image from "next/image"
 import kleemax from "@next/font/local"
 import { IBM_Plex_Sans } from "next/font/google"
-import { Hero, Sponsors, CarDetails, Values } from "@/components/"
+
+import { Hero, Sponsors, CarDetails, Values, AboutUs } from "@/components/"
 import { Navbar } from "@/components/Navbar"
 import { TeamCarousel } from '@/components/'
 import { NintaiTitle } from "@/assets/Bgs"
@@ -31,6 +32,7 @@ export default function Home() {
       </Hero>
       <Sponsors/>
       <CarDetails/>
+      <AboutUs/>
       <Values/>
       <TeamCarousel/>
     </>
