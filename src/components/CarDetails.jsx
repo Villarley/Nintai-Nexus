@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Image from "next/image"
 import nebula from "@next/font/local"
-import { NN24, SideNN24 } from "@/assets/Car"
+import { NN24, SideNN24, LeftNN24, FrontNN24 } from "@/assets/Car"
 import { TabButton, TabContent } from "@/components/Tabs"
 import { Nebula } from "@/components/Text"
 import { Cta } from "@/components/Buttons"
@@ -47,8 +47,8 @@ function Tab() {
         </div>
         </TabContent>
       <TabContent isActive={isActive === 1}><Image src={SideNN24} alt=""/></TabContent>
-      <TabContent isActive={isActive === 2}>Chassis</TabContent>
-      <TabContent isActive={isActive === 3}>Design</TabContent>
+      <TabContent isActive={isActive === 2}><Image src={LeftNN24} alt=""/> </TabContent>
+      <TabContent isActive={isActive === 3}><Image src={FrontNN24} alt=""/> </TabContent>
       <Cta>Check Our Car</Cta>
     </div>
   )

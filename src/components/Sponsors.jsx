@@ -23,12 +23,12 @@ const SponsorsData = [
   },
   {
     Img: GTW,
-    Dir: "https://www.GTW.com/",
+    Dir: "https://www.GTW.cr/",
     Name: "GTW"
   },
   {
     Img: ItalianImportRacing,
-    Dir: "https://www.ItalianImportRacing.com/",
+    Dir: "https://www.facebook.com/italianimportracing/",
     Name: "Italian Import Racing"
   }
 ]

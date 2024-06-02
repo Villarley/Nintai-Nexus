@@ -1,0 +1,6 @@
+export { default as LoboPlano} from "./LoboPlano.png"
+export { default as ArleyPlano} from "./ArleyPlano.png"
+export { default as AmandaPlano} from "./AmandaPlano.png"
+export { default as MariaPlano} from "./MariaPlano.png"
+export { default as JoelPlano} from "./JoelPlano.png"
+export { default as LuisPlano} from "./LuisPlano.png"
