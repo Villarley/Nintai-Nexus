@@ -19,7 +19,7 @@ export default function TeamCarousel() {
         {Name:"LUIS", Surname:"ANGEL", Img:LuisPlano, Role:"Sponsorship Manager"}
     ]
   return (
-    <Swiper rewind={true}  modules={[Autoplay]} autoHeight={false} autoplay={{
+    <Swiper id="team" rewind={true}  modules={[Autoplay]} autoHeight={false} autoplay={{
         delay: 2000,
         disableOnInteraction: false,
       }} className=" h-full bg-black flex justify-center items-center">
