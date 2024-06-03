@@ -4,6 +4,7 @@ import Link from "next/link"
 import { ImagoTypeIndigo, IsotypeIndigo } from "@/assets/Logos"
 import { Nebula, Ibm } from "@/components/Text"
 import { Insta, Facebook } from "@/assets/Icons/"
+// import pdf from "@/assets/Portfolio.pdf"
 
 export default function Footer() {
   return (
@@ -26,7 +27,10 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
             <Nebula classname="text-lg sm:text-2xl">Team</Nebula>
             <div className="flex flex-col">
-                <Ibm classname="text-sm md:text-lg">Portfolio</Ibm>
+                <Link href="/assets/portfolio.pdf">
+                    <Ibm classname="text-sm md:text-lg">Portfolio</Ibm>
+                </Link>
+
                 <Ibm classname="text-sm md:text-lg">Contact</Ibm>
             </div>
         </div>
