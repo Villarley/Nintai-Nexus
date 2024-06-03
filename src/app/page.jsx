@@ -31,9 +31,9 @@ export default function Home() {
       </Hero>
       <Sponsors/>
       <CarDetails/>
-      <AboutUs/>
       <Values/>
       <TeamCarousel/>
+      <AboutUs/>
       <Footer/>
     </>
   )
