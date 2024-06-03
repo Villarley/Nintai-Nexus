@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+  font-family: 'kleemax';
+  src: url("../assets/fonts/Kleemax.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Nebula';
+  src: url("../assets/fonts/Nebula-Regular.otf") format("otf");
+}
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -30,4 +44,42 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+#sponsors-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+#sponsors-scroll {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+
+#sponsors-scroll:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.sponsor-item {
+  display: inline-block;
+  padding: 0 10px;
+  min-width: 200px;
+}
+.sponsor-item img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.sponsor-item:hover img {
+  filter: grayscale(0%);
 }
