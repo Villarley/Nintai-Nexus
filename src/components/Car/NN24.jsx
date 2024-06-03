@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import { useThree } from '@react-three/fiber'
 
-const Car = ({ url }) => {
+const Car = ({ url, position, rotation, scale }) => {
   const { scene } = useThree()
   const carRef = useRef()
 
