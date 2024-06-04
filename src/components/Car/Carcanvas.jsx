@@ -76,4 +76,3 @@ const CarCanvas = () => {
 }
 
 export default CarCanvas
-
