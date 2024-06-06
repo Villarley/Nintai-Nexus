@@ -38,7 +38,7 @@ const App = () => {
   )
 }
 function Home() {
-  const text1 = "Redisigning the "
+  const text1 = "Redesigning the "
   const text2 = " limits"
   return (
     <>

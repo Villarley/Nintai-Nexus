@@ -2,14 +2,14 @@ import React, { useEffect, useRef, useState } from "react"
 import Image from "next/image"
 import anime from "animejs"
 import { ImagoTypeBlack } from "@/assets/Logos"
+import { usePathname } from "next/navigation"
 
-// Importa el sonido de manera explícita
-const soundPath = "/sounds/logoSound.wav"
 
 const LogoAnimation = ({ onAnimationEnd }) => {
   const logoRef = useRef(null)
   const [visibleButton, setVisibleButton] = useState(true)
-
+  const pathname = usePathname()
+  const soundPath = pathname === "/" ? "/sounds/logoSound.wav" : "/sounds/extendedSound.wav"
   const startAnimation = async () => {
     try {
       const audio = new Audio(soundPath)
