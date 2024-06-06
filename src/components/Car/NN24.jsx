@@ -19,4 +19,3 @@ const Car = ({ url, position, rotation, scale }) => {
 }
 
 export default Car
-export default Car
