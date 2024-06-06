@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Image from "next/image"
 import nebula from "@next/font/local"
-import { NN24, SideNN24 } from "@/assets/Car"
+import { NN24, SideNN24, LeftNN24, FrontNN24 } from "@/assets/Car"
 import { TabButton, TabContent } from "@/components/Tabs"
 import { Nebula } from "@/components/Text"
 import { Cta } from "@/components/Buttons"
@@ -39,16 +39,40 @@ function Tab() {
       </div>
       <TabContent isActive={isActive === 0}>
         <Image src={NN24} alt=""/>
-        <div className="flex">
+        <div className="flex justify-center lg:justify-start">
           <div className="flex flex-col p-5">
             <Nebula classname="text-center text-2xl text-black">Weight</Nebula>
             <Nebula classname="text-center text-2xl text-Indigo">60 g</Nebula>
           </div>
         </div>
         </TabContent>
-      <TabContent isActive={isActive === 1}><Image src={SideNN24} alt=""/></TabContent>
-      <TabContent isActive={isActive === 2}>Chassis</TabContent>
-      <TabContent isActive={isActive === 3}>Design</TabContent>
+      <TabContent isActive={isActive === 1}>
+        <Image src={SideNN24} alt=""/>
+        <div className="flex justify-center lg:justify-start">
+          <div className="flex flex-col p-5">
+            <Nebula classname="text-center text-2xl text-black">3d printed</Nebula>
+            <Nebula classname="text-center text-2xl text-Indigo">Frontwing</Nebula>
+          </div>
+          </div>  
+      </TabContent>
+      <TabContent isActive={isActive === 2}>
+        <Image src={LeftNN24} alt=""/> 
+        <div className="flex justify-center lg:justify-start">
+          <div className="flex flex-col p-5">
+            <Nebula classname="text-center text-2xl text-black">Velocity of air</Nebula>
+            <Nebula classname="text-center text-2xl text-Indigo">18.5 m/s</Nebula>
+          </div>
+          </div>
+        </TabContent>
+      <TabContent isActive={isActive === 3}>
+        <Image src={FrontNN24} alt=""/> 
+        <div className="flex justify-center lg:justify-start">
+          <div className="flex flex-col p-5">
+            <Nebula classname="text-center text-2xl text-black">Stunning and agresive</Nebula>
+            <Nebula classname="text-center text-2xl text-Indigo">Design</Nebula>
+          </div>
+          </div>
+        </TabContent>
       <Cta>Check Our Car</Cta>
     </div>
   )

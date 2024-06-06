@@ -21,8 +21,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${kleemax.variable}`}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body>{children}</body>
     </html>
   )
 }

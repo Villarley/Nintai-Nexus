@@ -10,7 +10,7 @@ export default function Navbar() {
   const navigationItems = [
     { name: "Team", link: "#team" },
     { name: "Sponsors", link: "#sponsors" },
-    { name: "About us", link: "#contact" },
+    { name: "About us", link: "#about" },
   ]
   const handleSetMenu = () => setActiveMenu(!activeMenu)
   return (
