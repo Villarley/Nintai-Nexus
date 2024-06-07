@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
             <Nebula classname="text-lg sm:text-2xl">Team</Nebula>
             <div className="flex flex-col">
-                <Link target="_blank" href="/portfolio.pdf">
+                <Link target="_blank" href="/portfolio">
                     <Ibm classname="text-sm md:text-lg">Portfolio</Ibm>
                 </Link>
 
